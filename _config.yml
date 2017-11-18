@@ -11,7 +11,7 @@ email: jjflor1988@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This website is intended to be an interface point 
   between Codetek Solutions, LLC. and the rest of the world.
-baseurl: "/Test" # the subpath of your site, e.g. /blog
+baseurl: ""  #Note: I tried "/Test" just to learn and it had bad results. # the subpath of your site, e.g. /blog
 url: "http://codetek-solutions.com" # the base hostname & protocol for your site
 
 # Build settings
