@@ -76,13 +76,13 @@ layout: default
 				Topic "n"
 		  </h4>
 		  
-		  <ul class="post-list" style="color:white;>
+		  <ul class="post-list">
 			{% for post in site.posts %}
 			  <li>
-				<span class="post-meta" style="color:white;>{{ post.date | date: "%b %-d, %Y" }}</span>
+				<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-				<h2>
-				  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="color:white>{{ post.title }}</a>
+				<h2 style="color:white;">
+				  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 				</h2>
 			  </li>
 			{% endfor %}
