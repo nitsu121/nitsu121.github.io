@@ -22,19 +22,24 @@ layout: default
 
 	</head>
 
+	
 	<!  <body background="dna_img.jpg">  >
+	<!  style="color:blue;"  >
+	
+	<!  style="color:white;"  >
+	
 	<body>
 		<div class="home">
 
 
-		  <h1 class="page-heading">Knowledge and Interest central HUB</h1>
+		  <h1 class="page-heading" style="color:white;>Knowledge and Interest central HUB</h1>
 
-		  <h4>
+		  <h4 style="color:white;>
 				Topic 1
 				
 				
 				
-				<img src="web_archer.PNG" alt="web archer">
+				<!  <img src="web_archer.PNG" alt="web archer">   >
 				
 
 				
@@ -44,10 +49,10 @@ layout: default
 		  <ul class="post-list">
 			{% for post in site.posts %}
 			  <li>
-				<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+				<span class="post-meta" style="color:white;>{{ post.date | date: "%b %-d, %Y" }}</span>
 
 				<h2>
-				  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="color:white;>{{ post.title }}</a>
 				</h2>
 			  </li>
 			{% endfor %}
