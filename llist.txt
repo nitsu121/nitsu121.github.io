@@ -1,5 +1,5 @@
 
-<a href= "http://codetek-solutions.com/" style="color:white;">
+<a href= "http://codetek-solutions.com/" style="color:black;">
 	HOME
 </a>
 
